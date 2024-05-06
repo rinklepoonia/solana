@@ -291,7 +291,74 @@
     background-image: url(../images/png/started5.png);
 }
 
+/* =========Dig deeper========= */
+.py_128_100 {
+    padding-top: 128px;
+    padding-bottom: 100px;
+}
 
+.mb_32 {
+    margin-bottom: 32px;
+}
+
+.mb_14 {
+    margin-bottom: 14px;
+}
+
+.mb_52 {
+    margin-bottom: 52px;
+}
+
+.mb_26 {
+    margin-bottom: 26px;
+}
+
+.mb_22 {
+    margin-bottom: 22.59px;
+}
+
+.mb_48 {
+    margin-bottom: 48.59px;
+}
+
+.max_w_159 {
+    max-width: 159px;
+}
+
+.max_w_200 {
+    max-width: 200px;
+}
+
+.max_w_260 {
+    max-width: 260px;
+}
+
+.max_w_282 {
+    max-width: 282px;
+}
+
+.dig_card {
+    border-radius: 12px;
+    padding: 31.59px 31.9px 34.42px 31.9px;
+    max-width: 346px;
+    height: 282px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.dig_gradient {
+    width: 259px;
+    height: 59px;
+    background: var(--clr-gradientPurple);
+    bottom: -21px;
+    opacity: 66%;
+    filter: blur(36px);
+    display: none;
+}
+
+.dig_card:hover .dig_gradient {
+    display: block;
+}
 
 @media (max-width:991.99px) {
     .overFlowHidden {
@@ -323,6 +390,10 @@
         height: 3px;
         background: var(--clr-white);
         transition: all 300ms linear;
+    }
+
+    .justify_content_center {
+        justify-content: center;
     }
 }
 

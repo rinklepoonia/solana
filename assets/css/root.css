@@ -25,9 +25,17 @@
     --clr-green: #14F195;
     --clr-gradient: #F087FF4D;
     --clr-purple: #9945FF;
+    --clr-gradientPurple:#A962FF;
+    --clr-brown: #19161C;
+}
+.bg-brown{
+    background: var(--clr-brown);
 }
 .bg-purple{
     background: var(--clr-purple);
+}
+.color-purple{
+    color: var(--clr-purple);
 }
 
 .gradient-color {
