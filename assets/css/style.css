@@ -104,9 +104,10 @@
     line-height: 70px;
 }
 
-.lh-96 {
-    line-height: 96px;
+.lh-94 {
+    line-height: 94px;
 }
+
 
 /* ===========nav========== */
 .grident_bg {
@@ -123,7 +124,6 @@
 
 .dropdown_modification {
     background: var(--clr-black);
-    /* border: 1px solid var(--clr-white); */
     width: 140px;
     padding: 10px;
     border-radius: 10px;
@@ -175,6 +175,10 @@
     gap: 8px;
 }
 
+.max_w_636 {
+    max-width: 636px;
+}
+
 .hero_grident {
     width: 633.23px;
     height: 642px;
@@ -204,6 +208,90 @@
     top: 80px;
     z-index: -1;
 }
+
+/* ==========get-started========== */
+.started_bg_img {
+    background-image: url(../images/png/started-img.png);
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+}
+
+.started_row_gap {
+    row-gap: 24px;
+}
+
+.min_h_320 {
+    min-height: 320px;
+}
+
+.max_w_387 {
+    max-width: 387px;
+}
+
+.max_w_182 {
+    max-width: 182px;
+}
+
+.max_w_85 {
+    max-width: 85px;
+}
+
+.max_w_190 {
+    max-width: 190px;
+}
+
+.mb_12 {
+    margin-bottom: 12px;
+}
+
+.mb_5 {
+    margin-bottom: 5px;
+}
+
+.mb_20 {
+    margin-bottom: 20px;
+}
+
+.padding_11 {
+    padding: 1px 11.84px;
+}
+
+.padding_box {
+    padding: 0 18.64px 40.41px 31.56px;
+}
+
+.border_property {
+    border-radius: 16px;
+    border: 1px solid transparent;
+}
+
+.bg_img_property {
+    background-size: cover;
+    /* background-position: center; */
+}
+
+.Buildspace_bg {
+    background-image: url(../images/png/started1.png);
+}
+
+.Bytes_bg_img {
+    background-image: url(../images/png/started2.png);
+}
+
+.Series_bg_img {
+    background-image: url(../images/png/started3.png);
+}
+
+.free_bg_img {
+    background-image: url(../images/png/started4.png);
+}
+
+.knox_bg_img {
+    background-image: url(../images/png/started5.png);
+}
+
+
 
 @media (max-width:991.99px) {
     .overFlowHidden {
@@ -239,8 +327,26 @@
 }
 
 @media (min-width:576px) {
-    .lh-sm-94 {
-        line-height: 94px;
+    .lh-sm-96 {
+        line-height: 96px;
+    }
+
+    .started_bg_img {
+        padding: 30px;
+    }
+
+    .mb_sm_15 {
+        margin-bottom: 15px;
+    }
+}
+
+@media (min-width:768px) {
+    .started_bg_img {
+        padding: 50px;
+    }
+
+    .mb_md_31 {
+        margin-bottom: 31px;
     }
 }
 
@@ -251,5 +357,13 @@
 
     .max_w_390 {
         max-width: 390px;
+    }
+
+    .started_bg_img {
+        padding: 75px 0 76.41px 88px;
+    }
+
+    .mb_lg_29 {
+        margin-bottom: 29px;
     }
 }
