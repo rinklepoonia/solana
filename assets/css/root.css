@@ -1,0 +1,157 @@
+:root {
+    --fs-11: 11px;
+    --fs-12: 12px;
+    --fs-14: 14px;
+    --fs-15: 15px;
+    --fs-16: 16px;
+    --fs-17: 17px;
+    --fs-18: 18px;
+    --fs-19: 19px;
+    --fs-20: 20px;
+    --fs-21: 21px;
+    --fs-32: 32px;
+    --fs-35: 35px;
+    --fs-36: 36px;
+    --fs-37: 37px;
+    --fs-38: 38px;
+    --fs-39: 39px;
+    --fs-94: 54px;
+    /* color */
+    --clr-black: #000000;
+    --clr-white: #FFFFFF;
+    --clr-black60: #00000099;
+    --clr-navgry: #848895;
+    --clr-grey: #C4C4C4;
+    --clr-green: #14F195;
+    --clr-gradient: #F087FF4D;
+}
+
+.gradient-color {
+    background: var(--clr-gradient);
+}
+
+.bg-green {
+    background: var(--clr-green);
+}
+
+.color-grey {
+    color: var(--clr-grey);
+}
+
+.bg_black {
+    background: var(--clr-black);
+}
+
+.color-white {
+    color: var(--clr-white);
+}
+
+.background-black {
+    background: var(--clr-black);
+}
+
+.color-navgry {
+    color: var(--clr-navgry);
+}
+
+.color-black {
+    color: var(--clr-black);
+}
+
+.text-11 {
+    font-size: var(--fs-11);
+}
+
+.text-12 {
+    font-size: var(--fs-12);
+}
+
+.text-15 {
+    font-size: var(--fs-15);
+}
+
+.text-16 {
+    font-size: var(--fs-16);
+}
+
+.text-17 {
+    font-size: var(--fs-17);
+}
+
+.text-18 {
+    font-size: var(--fs-18);
+}
+
+.text-19 {
+    font-size: var(--fs-19);
+}
+
+.text-20 {
+    font-size: var(--fs-20);
+}
+
+.text-21 {
+    font-size: var(--fs-21);
+}
+
+.text-32 {
+    font-size: var(--fs-32);
+}
+
+.text-35 {
+    font-size: var(--fs-35);
+}
+
+.text-36 {
+    font-size: var(--fs-36);
+}
+
+.text-37 {
+    font-size: var(--fs-37);
+}
+
+.text-38 {
+    font-size: var(--fs-38);
+}
+
+.text-39 {
+    font-size: var(--fs-39);
+}
+
+.text-94 {
+    font-size: var(--fs-94);
+}
+
+@media (min-width:576px) {
+    :root {
+        --fs-94: 80px;
+    }
+}
+
+@media (min-width:768px) {
+    :root {
+        /* --fs-94: 94px; */
+    }
+}
+
+@media (min-width:992px) {
+    :root {
+        /* --fs-11: 11px; */
+        /* --fs-12: 12px; */
+        /* --fs-14: 14px; */
+        /* --fs-15: 15px; */
+        /* --fs-16: 16px; */
+        /* --fs-17: 17px; */
+        /* --fs-18: 18px; */
+        /* --fs-19: 19px; */
+        /* --fs-20: 20px; */
+        /* --fs-21: 21px; */
+        /* --fs-32: 32px; */
+        /* --fs-35: 35px; */
+        /* --fs-36: 36px; */
+        /* --fs-37: 37px; */
+        /* --fs-38: 38px; */
+        /* --fs-39: 39px; */
+        --fs-94: 94px;
+    }
+}
