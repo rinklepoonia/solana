@@ -3,6 +3,11 @@ function openNav() {
     document.body.classList.toggle("overFlowHidden");
     document.querySelector(".menuIcon").classList.toggle("cross")
 }
+// preloder
+const Preload = document.getElementById("preload")
+setTimeout(() => {
+    Preload.classList.add("d-none")
+}, "2000");
 
 AOS.init({
     duration: 1200,

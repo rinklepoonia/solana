@@ -19,6 +19,7 @@
     /* color */
     --clr-black: #000000;
     --clr-white: #FFFFFF;
+    --clr-lightgry:#ddd;
     --clr-black60: #00000099;
     --clr-navgry: #848895;
     --clr-grey: #C4C4C4;
@@ -171,22 +172,6 @@
 
 @media (min-width:992px) {
     :root {
-        /* --fs-11: 11px; */
-        /* --fs-12: 12px; */
-        /* --fs-14: 14px; */
-        /* --fs-15: 15px; */
-        /* --fs-16: 16px; */
-        /* --fs-17: 17px; */
-        /* --fs-18: 18px; */
-        /* --fs-19: 19px; */
-        /* --fs-20: 20px; */
-        /* --fs-21: 21px; */
-        /* --fs-32: 32px; */
-        /* --fs-35: 35px; */
-        /* --fs-36: 36px; */
-        /* --fs-37: 37px; */
-        /* --fs-38: 38px; */
-        /* --fs-39: 39px; */
         --fs-94: 94px;
     }
 }
