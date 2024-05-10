@@ -197,10 +197,6 @@
     display: block;
 }
 
-/* .dropdown:hover .dropbtn {
-    background-color: #3e8e41;
-} */
-
 .cursor_pointer {
     cursor: pointer;
 }
@@ -352,7 +348,6 @@
 
 .bg_img_property {
     background-size: cover;
-    /* background-position: center; */
 }
 
 .Buildspace_bg {
@@ -374,42 +369,28 @@
 .knox_bg_img {
     background-image: url(../images/png/started5.png);
 }
-.started_card{
+
+.started_card {
     transition: 0.3s linear;
     cursor: pointer;
 }
-.started_card:hover{
+
+.started_card:hover {
     scale: 0.9;
 }
 
 /* =========Dig deeper========= */
-.py_128_100 {
-    padding-top: 128px;
-    padding-bottom: 100px;
+.py_50 {
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
-.mb_32 {
-    margin-bottom: 32px;
+.mb_25 {
+    margin-bottom: 25px;
 }
 
 .mb_14 {
     margin-bottom: 14px;
-}
-
-.mb_52 {
-    margin-bottom: 52px;
-}
-
-.mb_26 {
-    margin-bottom: 26px;
-}
-
-.mb_22 {
-    margin-bottom: 22.59px;
-}
-
-.mb_48 {
-    margin-bottom: 48.59px;
 }
 
 .max_w_159 {
@@ -420,21 +401,19 @@
     max-width: 200px;
 }
 
-.max_w_260 {
-    max-width: 260px;
-}
-
 .max_w_282 {
     max-width: 282px;
 }
 
 .dig_card {
     border-radius: 12px;
-    padding: 31.59px 31.9px 34.42px 31.9px;
+    padding: 25px;
     max-width: 346px;
-    height: 282px;
+    width: 100%;
+    height: inherit;
     overflow: hidden;
     cursor: pointer;
+    transition: 0.3s linear;
 }
 
 .dig_gradient {
@@ -449,6 +428,10 @@
 
 .dig_card:hover .dig_gradient {
     display: block;
+}
+
+.dig_card:hover {
+    scale: 0.9;
 }
 
 /* =================go-to-source=========== */
@@ -670,12 +653,25 @@
 }
 
 @media (min-width:768px) {
-    .started_bg_img {
-        padding: 50px;
-    }
-
     .mb_md_31 {
         margin-bottom: 31px;
+    }
+
+    .mb_md_32 {
+        margin-bottom: 32px;
+    }
+
+    .py_md_100 {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    .dig_card {
+        padding: 31.59px 31.9px 34.42px 31.9px;
+    }
+
+    .started_bg_img {
+        padding: 50px;
     }
 }
 
@@ -696,11 +692,40 @@
         max-width: 423px;
     }
 
-    .started_bg_img {
-        padding: 75px 0 76.41px 88px;
+    .max_w_260 {
+        max-width: 260px;
     }
 
     .mb_lg_29 {
         margin-bottom: 29px;
+    }
+
+    .py_lg_128_100 {
+        padding-top: 128px;
+        padding-bottom: 100px;
+    }
+
+    .mb_52 {
+        margin-bottom: 52px;
+    }
+
+    .mb_26 {
+        margin-bottom: 26px;
+    }
+
+    .mb_48 {
+        margin-bottom: 48.59px;
+    }
+
+    .mb_22 {
+        margin-bottom: 22.59px;
+    }
+
+    .started_bg_img {
+        padding: 75px 0 76.41px 88px;
+    }
+
+    .dig_card {
+        height: 282px;
     }
 }
