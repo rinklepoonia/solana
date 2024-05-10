@@ -7,9 +7,9 @@
     --fs-17: 17px;
     --fs-18: 18px;
     --fs-19: 19px;
-    --fs-20: 20px;
+    --fs-20: 16px;
     --fs-21: 21px;
-    --fs-32: 32px;
+    --fs-32: 27px;
     --fs-35: 35px;
     --fs-36: 30px;
     --fs-37: 30px;
@@ -158,6 +158,8 @@
 @media (min-width:768px) {
     :root {
         --fs-37: 37px;
+        --fs-32: 32px;
+        --fs-20: 20px;
     }
 }
 
