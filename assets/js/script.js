@@ -3,8 +3,8 @@ function openNav() {
     document.body.classList.toggle("overFlowHidden");
     document.querySelector(".menuIcon").classList.toggle("cross")
 }
-// ============dropdown
-// function toggleClass() {
-//     const btnn = document.getElementById('btnn');
-//     btnn.classList.toggle("active");
-// }
+
+AOS.init({
+    duration: 1200,
+    once: true,
+})
