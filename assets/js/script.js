@@ -4,7 +4,7 @@ function openNav() {
     document.querySelector(".menuIcon").classList.toggle("cross")
 }
 // ============dropdown
-function toggleClass() {
-    const btnn = document.getElementById('btnn');
-    btnn.classList.toggle("active");
-}
+// function toggleClass() {
+//     const btnn = document.getElementById('btnn');
+//     btnn.classList.toggle("active");
+// }

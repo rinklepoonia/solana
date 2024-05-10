@@ -31,9 +31,6 @@
     --clr-lightblack: #19161C;
     --clr-inputblack: #0A0A0A;
 }
-/* .bg_navgrey{
-    background: var(--clr-navgry);
-} */
 
 .bg_inputBlack {
     background: var(--clr-inputblack);
