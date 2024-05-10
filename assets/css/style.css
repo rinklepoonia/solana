@@ -467,6 +467,25 @@
     padding: 100px 0 79px 0;
 }
 
+/* ===============footer================ */
+.footer_IconBox {
+    width: 26px;
+    height: 16px;
+    background: var(--clr-navgry);
+}
+
+.gap_10 {
+    gap: 10px;
+}
+
+.mb_13 {
+    margin-bottom: 13px;
+}
+
+.mb_11 {
+    margin-bottom: 11px;
+}
+
 @media (max-width:991.99px) {
     .overFlowHidden {
         overflow: hidden;
