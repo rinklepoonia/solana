@@ -30,6 +30,12 @@
     --clr-borderGry: #888789;
     --clr-lightblack: #19161C;
     --clr-inputblack: #0A0A0A;
+    --clr-footerBlack: #000508;
+    --clr-footerblack:#141414;
+}
+
+.bg_footerBlack {
+    background: var(--clr-footerBlack);
 }
 
 .bg_inputBlack {
