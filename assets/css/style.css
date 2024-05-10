@@ -260,22 +260,6 @@
     z-index: -1;
 }
 
-/* button.slide_from_bottom::after {
-    left: 0;
-    right: 0;
-    top: 100%;
-    bottom: -100%;
-} */
-
-/* .slide_from_bottom {
-    padding: 11px 34px;
-    background: var(--fc-blue);
-    border-radius: 4px;
-    border: transparent;
-    position: relative;
-    overflow: hidden;
-    transition: 0.3s linear;
-} */
 .btn_hover {
     position: relative;
     /* border: 1px solid transparent; */
@@ -286,14 +270,14 @@
 .btn_hover:hover {
     color: var(--clr-black);
     z-index: 1;
-    border: 1px solid black;
+    border: 1px solid var(--clr-black);
 }
 
 .btn_hover:after {
     content: "";
     position: absolute;
     left: 0;
-    top: -100%;
+    top: 100%;
     width: 100%;
     height: 100%;
     background: var(--clr-white);
@@ -389,6 +373,13 @@
 
 .knox_bg_img {
     background-image: url(../images/png/started5.png);
+}
+.started_card{
+    transition: 0.3s linear;
+    cursor: pointer;
+}
+.started_card:hover{
+    scale: 0.9;
 }
 
 /* =========Dig deeper========= */
