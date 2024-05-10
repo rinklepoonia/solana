@@ -360,6 +360,113 @@
     display: block;
 }
 
+/* =================go-to-source=========== */
+.mb_47 {
+    margin-bottom: 47px;
+}
+
+.mr_18 {
+    margin-right: 18px;
+}
+
+.ml_18 {
+    margin-left: 18px;
+}
+
+.ml_10 {
+    margin-left: 10px;
+}
+
+.mb_31 {
+    margin-bottom: 31px;
+}
+
+.mb_29 {
+    margin-bottom: 29px;
+}
+
+.mt_30 {
+    margin-top: 30px;
+}
+
+.mb_30 {
+    margin-bottom: 30px;
+}
+
+.max_w_522 {
+    max-width: 522px;
+}
+
+.max_w_503 {
+    max-width: 503px;
+}
+
+.max_w_393 {
+    max-width: 393px;
+}
+
+.gap_22 {
+    gap: 22px;
+}
+
+.radius_24 {
+    border-radius: 24px;
+}
+
+.padding_btn {
+    padding: 11px 21px;
+}
+
+.padding_12_45 {
+    padding: 12px 45px;
+}
+
+.border_bottom {
+    border-bottom: 1px solid var(--clr-borderGry);
+}
+
+.update_box {
+    background: var(--clr-lightblack);
+}
+
+.radius_800 {
+    border-radius: 800px;
+}
+
+.outline_none {
+    outline: none;
+}
+
+.update_box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 14px;
+    max-width: 530px;
+    padding: 30px;
+}
+
+.padding_13_21 {
+    padding: 13px 21px;
+}
+
+.input_modification {
+    max-width: 400px;
+    width: 100%;
+    padding: 10px;
+}
+
+.resources_box {
+    padding: 30px;
+    background: var(--clr-lightblack);
+    border-radius: 14px;
+}
+
+.padding_100_79 {
+    padding: 100px 0 79px 0;
+}
+
 @media (max-width:991.99px) {
     .overFlowHidden {
         overflow: hidden;
@@ -409,6 +516,30 @@
     .mb_sm_15 {
         margin-bottom: 15px;
     }
+
+    .mb_sm_61 {
+        margin-bottom: 61px;
+    }
+
+    .mb_sm_76 {
+        margin-bottom: 76px;
+    }
+
+    .update_box {
+        padding: 49px 53px 45px 54px;
+    }
+
+    .resources_box {
+        padding: 53px 54px;
+    }
+
+    .max_w_382 {
+        max-width: 382px;
+    }
+
+    .max_w_400 {
+        max-width: 400px;
+    }
 }
 
 @media (min-width:768px) {
@@ -428,6 +559,14 @@
 
     .max_w_390 {
         max-width: 390px;
+    }
+
+    .max_w_505 {
+        max-width: 505px;
+    }
+
+    .max_w_423 {
+        max-width: 423px;
     }
 
     .started_bg_img {
