@@ -11,15 +11,15 @@
     --fs-21: 21px;
     --fs-32: 27px;
     --fs-35: 35px;
-    --fs-36: 30px;
+    --fs-36: 25px;
     --fs-37: 30px;
-    --fs-38: 38px;
-    --fs-39: 39px;
+    --fs-38: 30px;
+    --fs-39: 27px;
     --fs-94: 54px;
     /* color */
     --clr-black: #000000;
     --clr-white: #FFFFFF;
-    --clr-lightgry:#ddd;
+    --clr-lightgry: #ddd;
     --clr-black60: #00000099;
     --clr-navgry: #848895;
     --clr-grey: #C4C4C4;
@@ -32,7 +32,7 @@
     --clr-lightblack: #19161C;
     --clr-inputblack: #0A0A0A;
     --clr-footerBlack: #000508;
-    --clr-footerblack:#141414;
+    --clr-footerblack: #141414;
 }
 
 .bg_footerBlack {
@@ -158,7 +158,8 @@
 @media (min-width:576px) {
     :root {
         --fs-94: 80px;
-        --fs-36: 36px;
+        --fs-36: 30px;
+        --fs-39: 39px;
     }
 }
 
@@ -167,6 +168,8 @@
         --fs-37: 37px;
         --fs-32: 32px;
         --fs-20: 20px;
+        --fs-36: 36px;
+        --fs-38: 38px;
     }
 }
 

@@ -100,8 +100,8 @@
     line-height: 42px;
 }
 
-.lh-70 {
-    line-height: 70px;
+.lh-50 {
+    line-height: 50px;
 }
 
 .lh-94 {
@@ -179,16 +179,8 @@
     margin-left: 10px;
 }
 
-.mb_19 {
-    margin-bottom: 19px;
-}
-
 .mb_25 {
     margin-bottom: 25px;
-}
-
-.pt_128 {
-    padding-top: 128px;
 }
 
 .gap_8 {
@@ -345,6 +337,7 @@
 .started_card {
     transition: 0.3s linear;
     cursor: pointer;
+    border-radius: 18px;
 }
 
 .started_card:hover {
@@ -355,6 +348,10 @@
 .py_50 {
     padding-top: 50px;
     padding-bottom: 50px;
+}
+
+.gap_23 {
+    gap: 23px;
 }
 
 .mb_14 {
@@ -376,7 +373,6 @@
 .dig_card {
     border-radius: 12px;
     padding: 25px;
-    max-width: 346px;
     width: 100%;
     height: inherit;
     overflow: hidden;
@@ -403,6 +399,10 @@
 }
 
 /* =================go-to-source=========== */
+.mb_0 {
+    margin-bottom: 0;
+}
+
 .pt_40 {
     padding-top: 40px;
 }
@@ -421,10 +421,6 @@
 
 .mb_15 {
     margin-bottom: 15px;
-}
-
-.mb_60 {
-    margin-bottom: 60px;
 }
 
 .max_w_198 {
@@ -583,6 +579,26 @@
     transform: rotate(-43deg) translateY(-15px);
     transition: 300ms linear;
 }
+.img_ani {
+    position: relative;
+    animation-duration: 1s;
+    animation-name: zoom-in-zoom-out;
+    animation-timing-function: linear;
+}
+
+@keyframes zoom-in-zoom-out {
+    0% {
+        transform: scale(1, 1);
+    }
+
+    50% {
+        transform: scale(1.5, 1.5);
+    }
+
+    100% {
+        transform: scale(1, 1);
+    }
+}
 
 @media (max-width:991.99px) {
     .overFlowHidden {
@@ -619,11 +635,27 @@
     .justify_content_center {
         justify-content: center;
     }
+
+    .dig_card {
+        max-width: 346px;
+    }
+
+    .flex_wrap {
+        flex-wrap: wrap;
+    }
+
+    .source_rowGap_10 {
+        row-gap: 10px;
+    }
 }
 
 @media (min-width:576px) {
     .lh-sm-96 {
         line-height: 96px;
+    }
+
+    .lh-sm-40 {
+        line-height: 40px;
     }
 
     .started_bg_img {
@@ -689,8 +721,16 @@
         margin-bottom: 20px;
     }
 
+    .mb_md_60 {
+        margin-bottom: 60px;
+    }
+
     .mb_md_31 {
         margin-bottom: 31px;
+    }
+
+    .mb_md_19 {
+        margin-bottom: 19px;
     }
 
     .mb_md_32 {
@@ -746,6 +786,10 @@
 }
 
 @media (min-width:992px) {
+    .lh-lg-70 {
+        line-height: 70px;
+    }
+
     .max_w_563 {
         max-width: 563px;
     }
