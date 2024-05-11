@@ -579,6 +579,7 @@
     transform: rotate(-43deg) translateY(-15px);
     transition: 300ms linear;
 }
+
 .img_ani {
     position: relative;
     animation-duration: 1s;
@@ -650,12 +651,12 @@
 }
 
 @media (min-width:576px) {
-    .lh-sm-96 {
-        line-height: 96px;
-    }
-
     .lh-sm-40 {
         line-height: 40px;
+    }
+
+    .lh-sm-66 {
+        line-height: 66px;
     }
 
     .started_bg_img {
@@ -788,6 +789,10 @@
 @media (min-width:992px) {
     .lh-lg-70 {
         line-height: 70px;
+    }
+
+    .lh-lg-96 {
+        line-height: 96px;
     }
 
     .max_w_563 {
