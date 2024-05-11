@@ -253,6 +253,26 @@
     top: 0%;
 }
 
+.transition {
+    transition: 0.3s linear;
+}
+
+.hover_btn:hover {
+    background: var(--clr-black);
+    color: var(--clr-white);
+    border: 1px solid var(--clr-white);
+}
+
+.hover2_btn {
+    background: transparent;
+}
+
+.hover2_btn:hover {
+    background: var(--clr-green);
+    color: var(--clr-black);
+    border: 1px solid transparent;
+}
+
 /* ==========get-started========== */
 .started_bg_img {
     background-image: url(../images/png/started-img.png);
@@ -377,7 +397,6 @@
     height: inherit;
     overflow: hidden;
     cursor: pointer;
-    transition: 0.3s linear;
 }
 
 .dig_gradient {
@@ -392,10 +411,6 @@
 
 .dig_card:hover .dig_gradient {
     display: block;
-}
-
-.dig_card:hover {
-    scale: 0.9;
 }
 
 /* =================go-to-source=========== */
